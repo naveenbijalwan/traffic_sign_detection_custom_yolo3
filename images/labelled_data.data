@@ -1,0 +1,5 @@
+classes = 3
+train = D:/mywork/smartcloud2/freeway/traffic_sign_detection_custom_yolo4/images/train.txt
+valid = D:/mywork/smartcloud2/freeway/traffic_sign_detection_custom_yolo4/images/test.txt
+names = D:/mywork/smartcloud2/freeway/traffic_sign_detection_custom_yolo4/images/classes.names
+backup = backup
