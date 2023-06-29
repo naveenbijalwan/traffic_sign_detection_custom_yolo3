@@ -35,12 +35,12 @@ height, width = 416,416
 
 # load the video
 #cap_video = load_video('traffic-sign-to-test.mp4')
-cap_video = cv2.VideoCapture('JMT_DelDOT_Sample_Video.mp4')
+cap_video = cv2.VideoCapture('test.mp4')
 
 # save the video with object detections
 frame_width = int(cap_video.get(3))
 frame_height = int(cap_video.get(4))
-video_frames_save = cv2.VideoWriter('result/JMT_DelDOT_Sample_Video.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 25, (frame_width,frame_height))
+video_frames_save = cv2.VideoWriter('result/test.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 25, (frame_width,frame_height))
 
 while cap_video.isOpened():
     success, video_frames = cap_video.read()
